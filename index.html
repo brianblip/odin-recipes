@@ -2,60 +2,72 @@
 <html>
   <head>
     <title>FlexBox</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <div class="menu-container">
-      <div class="menu">
-        <div class="date">August 14, 2024</div>
-        <div class="links">
-          <div class="signup">Sign Up</div>
-          <div class="login">Log in</div>
+    <header class="main-header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">Header Logo</div>
+          <ul class="nav-links">
+            <li><a href="#" class="nav-item">Sign Up</a></li>
+            <li><a href="#" class="nav-item">Log in</a></li>
+            <li><a href="#" class="nav-item">About</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero">
+        <div class="hero-content">
+          <h1 class="here-title">This website is awesome</h1>
+          <p class="hero-description">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button class="cta-button">Sign up</button>
+        </div>
+        <div class="hero-image">
+          <img src="/images/awesome-logo.svg" height="100" width="300" />
         </div>
       </div>
-    </div>
-    <div class="header-container">
-      <div class="header">
-        <div class="subscribe">Subscribe &#9662;</div>
-        <div class="logo">
-          <img src="images/awesome-logo.svg" alt="lasagna" />
-        </div>
-        <div class="social">
-          <img src="images/social-icons.svg" alt="pizza" />
+    </header>
+    <section class="info-section">
+      <h2 class="info-title">Some random information.</h2>
+      <div class="info-item">
+        <div class="info-image"></div>
+        <p>subtext for the image</p>
+      </div>
+      <div class="info-item">
+        <div class="info-image"></div>
+        <p>subtext for the image</p>
+      </div>
+      <div class="info-item">
+        <div class="info-image"></div>
+        <p>subtext for the image</p>
+      </div>
+      <div class="info-item">
+        <div class="info-image"></div>
+        <p>subtext for the image</p>
+      </div>
+    </section>
+    <section class="quotation-section">
+      <blockquote class="quote-text"></blockquote>
+      <cite class="quote-author"></cite>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="footer-main-text">Call to Action</div>
+        <div class="footer-second-text">
+          Sign up for our product by clicking that button right over there!
         </div>
       </div>
-    </div>
-    <div class="photo-grid-container">
-      <div class="photo-grid">
-        <div class="photo-grid-item first-item">
-          <img src="images/one.svg" />
-        </div>
-        <div class="photo-grid-item">
-          <img src="images/two.svg" />
-        </div>
-        <div class="photo-grid-item">
-          <img src="images/three.svg" />
-        </div>
-        <div class="photo-grid-item">
-          <img src="images/four.svg" />
-        </div>
-        <div class="photo-grid-item last-item">
-          <img src="images/five.svg" />
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="item">1</div>
-      <div class="item">2</div>
-      <div class="item">3</div>
-      <div class="item">4</div>
-      <div class="item">5</div>
-    </div>
-    <div class="footer">
-      <div class="footer-item footer-one"></div>
-      <div class="footer-item footer-two"></div>
-      <div class="footer-item footer-three"></div>
-    </div>
+      <button class="cta-button">Sign Up</button>
+    </footer>
   </body>
 </html>
